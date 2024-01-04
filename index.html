@@ -11,7 +11,6 @@
       rel="stylesheet"
     />
     <script src="https://cdn.jsdelivr.net/npm/axios@1.1.2/dist/axios.min.js"></script>
-    />
     <title>Vanilla Weather App</title>
   </head>
   <body>
@@ -31,7 +30,7 @@
       <main>
         <div class="weather-app-data">
           <div>
-            <h1 class="weather-app-city" id="city">Paris</h1>
+            <h1 class="weather-app-city" id="city"></h1>
             <p class="weather-app-details">
               Tuesday 14:19, scattered clouds
               <br />
@@ -40,8 +39,8 @@
           </div>
           <div class="weather-app-temperature-container">
             <div class="weather-app-icon">🌤️</div>
-            <div class="weather-app-temperature">12</div>
-            <div class="weather-app-unit">˚C</div>
+            <div class="weather-app-temperature" id="temperature"></div>
+            <div class="weather-app-unit">˚F</div>
           </div>
         </div>
       </main>
